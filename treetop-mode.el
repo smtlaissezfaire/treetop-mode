@@ -1,4 +1,4 @@
-;; Treetop mode, taken from:
+;; Treetop mode originally taken from:
 ;; http://github.com/hornbeck/public_emacs/tree/master%2Ftreetop.el?raw=true
 
 ;; Use this to install treetop-mode
