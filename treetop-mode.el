@@ -1,6 +1,10 @@
 ; Treetop mode, taken from:
 ; http://github.com/hornbeck/public_emacs/tree/master%2Ftreetop.el?raw=true
 
+;; Use this to install treetop-mode
+;; (add-to-list 'load-path "treetop-mode-dir")
+;; (require 'treetop-mode)
+
 (defvar treetop-mode-hook nil)
 
 (defvar treetop-mode-map
