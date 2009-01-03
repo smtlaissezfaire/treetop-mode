@@ -16,8 +16,6 @@
    '("\\<\\grammar\\|rule\\|def\\|end\\>" . font-lock-builtin-face))
    "Minimal highlighting expressions for treetop mode")
 
-
-
 (defvar treetop-mode-syntax-table
   (let ((treetop-mode-syntax-table (make-syntax-table)))
     (modify-syntax-entry ?_ "w" treetop-mode-syntax-table)
