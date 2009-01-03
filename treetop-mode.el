@@ -17,7 +17,7 @@
 
 (defconst treetop-font-lock-keywords
   (list
-   '("\\<\\grammar\\|rule\\|def\\|end\\>" . font-lock-builtin-face))
+   '("\\<\\grammar \\|rule \\|def \\|end\\>" . font-lock-builtin-face))
    "Minimal highlighting expressions for treetop mode")
 
 (defvar treetop-mode-syntax-table
