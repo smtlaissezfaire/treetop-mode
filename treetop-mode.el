@@ -16,9 +16,9 @@
 (add-to-list 'auto-mode-alist '("\\.treetop\\'" . treetop-mode))
 
 (defconst treetop-font-lock-keywords
-  "Minimal highlighting expressions for treetop mode")
   (list
    '("\\<\\grammar \\|rule \\|def \\|end\\>" . font-lock-builtin-face))
+  "Minimal highlighting expressions for treetop mode")
 
 (defvar treetop-mode-syntax-table
   (let ((treetop-mode-syntax-table (make-syntax-table)))
