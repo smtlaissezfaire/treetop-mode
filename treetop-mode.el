@@ -1,5 +1,5 @@
-; Treetop mode, taken from:
-; http://github.com/hornbeck/public_emacs/tree/master%2Ftreetop.el?raw=true
+;; Treetop mode, taken from:
+;; http://github.com/hornbeck/public_emacs/tree/master%2Ftreetop.el?raw=true
 
 ;; Use this to install treetop-mode
 ;; (add-to-list 'load-path "treetop-mode-dir")
@@ -8,17 +8,17 @@
 (defvar treetop-mode-hook nil)
 
 (defvar treetop-mode-map
-        (let ((treetop-mode-map (make-keymap)))
-             (define-key treetop-mode-map "\C-j" 'newline-and-indent)
-             treetop-mode-map)
-             "Keymap for treetop major mode")
+  (let ((treetop-mode-map (make-keymap)))
+    (define-key treetop-mode-map "\C-j" 'newline-and-indent)
+    treetop-mode-map)
+  "Keymap for treetop major mode")
 
 (add-to-list 'auto-mode-alist '("\\.treetop\\'" . treetop-mode))
 
 (defconst treetop-font-lock-keywords
   (list
    '("\\<\\grammar \\|rule \\|def \\|end\\>" . font-lock-builtin-face))
-   "Minimal highlighting expressions for treetop mode")
+  "Minimal highlighting expressions for treetop mode")
 
 (defvar treetop-mode-syntax-table
   (let ((treetop-mode-syntax-table (make-syntax-table)))
