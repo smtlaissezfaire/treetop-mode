@@ -22,10 +22,10 @@
 
 (defvar treetop-mode-syntax-table
   (let ((treetop-mode-syntax-table (make-syntax-table)))
-    (modify-syntax-entry ?_ "w" treetop-mode-syntax-table)
+    (modify-syntax-entry ?_ "w"      treetop-mode-syntax-table)
     (modify-syntax-entry ?/ ". 124b" treetop-mode-syntax-table)
-    (modify-syntax-entry ?* ". 23" treetop-mode-syntax-table)
-    (modify-syntax-entry ?\n "> b" treetop-mode-syntax-table)
+    (modify-syntax-entry ?* ". 23"   treetop-mode-syntax-table)
+    (modify-syntax-entry ?\n "> b"   treetop-mode-syntax-table)
     treetop-mode-syntax-table)
   "Syntax table for treetop-mode")
 
